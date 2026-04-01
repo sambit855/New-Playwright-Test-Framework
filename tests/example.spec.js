@@ -16,4 +16,7 @@ console.log(dialog.message());
 await page.locator("#alertBtn").click()
 await page.waitForTimeout(3000)
 
+await page.locator("#draggable").dragTo(page.locator("#droppable"))
+await page.waitForTimeout(2000)
+
 });
