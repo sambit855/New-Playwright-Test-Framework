@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('redbus', async ({page})=>{
+test('@smoke redbus', async ({page})=>{
 
 await page.goto("https://www.redbus.in/")
 
